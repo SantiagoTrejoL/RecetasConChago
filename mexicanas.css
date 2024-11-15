@@ -1,0 +1,108 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+/* Barra de navegación */
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+nav ul li {
+    margin: 0;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 15px;
+    display: block;
+}
+nav ul li a:hover {
+    background-color: #555;
+}
+
+/* Sección de bienvenida */
+header {
+    text-align: center;
+    padding: 50px;
+    background-color: #ffcc00;
+    color: #333;
+}
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+header p {
+    font-size: 1.2em;
+}
+
+/* Estilos de las tarjetas de recetas */
+.recipe-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+.recipe-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin: 10px;
+    width: 300px;
+    text-align: center;
+}
+.recipe-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.recipe-card h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+.recipe-card p {
+    padding: 0 15px;
+    color: #555;
+}
+.recipe-card a {
+    display: inline-block;
+    margin: 15px;
+    padding: 10px 20px;
+    background-color: #d32f2f;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.recipe-card a:hover {
+    background-color: #b71c1c;
+}
+
+/* Sección de redes sociales */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+footer .social-links {
+    margin-top: 10px;
+}
+footer .social-links a {
+    color: #ffcc00;
+    text-decoration: none;
+    margin: 0 10px;
+}
+footer .social-links a:hover {
+    color: #e6b800;
+}

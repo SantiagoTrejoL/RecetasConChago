@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sugiere una Receta</title>
+    <link rel="stylesheet" href="sugerir.css">
+    <link rel="icon" href="/images/icons/sugerir.png" type="image/png">
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="MX/mexicanas.html">Comida Mexicana</a></li>
+            <li><a href="IT/italianas.html">Comida Italiana</a></li>
+            <li><a href="PO/postres.html">Postres</a></li>
+            <li><a href="sugerir.html">Sugiere tu Receta</a></li>
+        </ul>
+    </nav>
+
+    <!-- Encabezado -->
+    <header>
+        <h1>Sugiere una Receta</h1>
+        <p>¿Te gustaría que publiquemos la receta de tu platillo favorito? ¡Déjanos tu sugerencia!</p>
+    </header>
+
+    <!-- Formulario de Sugerencia -->
+    <main>
+        <section class="form-container">
+            <form action="#" method="post">
+                <label for="nombre">Tu Nombre:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Ej. Juan Pérez" required>
+
+                <label for="platillo">Platillo que te gustaría ver:</label>
+                <input type="text" id="platillo" name="platillo" placeholder="Ej. Tacos de Birria" required>
+
+                <label for="mensaje">Mensaje (opcional):</label>
+                <textarea id="mensaje" name="mensaje" rows="4" placeholder="Escribe tu mensaje aquí..."></textarea>
+
+                <button type="submit">Enviar Sugerencia</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Sección de Redes Sociales -->
+    <footer>
+        <p>Síguenos en nuestras redes sociales:</p>
+        <div class="social-links">
+            <a href="https://facebook.com" target="_blank">Facebook</a>
+            <a href="https://instagram.com" target="_blank">Instagram</a>
+            <a href="https://twitter.com" target="_blank">Twitter</a>
+        </div>
+    </footer>
+</body>
+</html>

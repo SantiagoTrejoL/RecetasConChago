@@ -1,0 +1,119 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+/* Barra de navegación */
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+nav ul li {
+    margin: 0;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 15px;
+    display: block;
+}
+nav ul li a:hover {
+    background-color: #555;
+}
+
+/* Sección de la receta */
+.receta-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.receta-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.receta-imagen {
+    max-width: 50%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.receta-contenido {
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #d32f2f;
+    font-size: 2.5em;
+}
+
+h2 {
+    color: #333;
+    font-size: 1.8em;
+    margin-top: 20px;
+}
+
+ul, ol {
+    text-align: left;
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+ul li, ol li {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 20px;
+    background-color: #d32f2f;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.btn:hover {
+    background-color: #b71c1c;
+}
+
+/* Sección de redes sociales */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+footer .social-links {
+    margin-top: 10px;
+}
+footer .social-links a {
+    color: #ffcc00;
+    text-decoration: none;
+    margin: 0 10px;
+}
+footer .social-links a:hover {
+    color: #e6b800;
+}

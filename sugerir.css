@@ -1,0 +1,108 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+
+/* Barra de navegación */
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+nav ul li {
+    margin: 0;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 15px;
+    display: block;
+}
+nav ul li a:hover {
+    background-color: #555;
+}
+
+/* Encabezado */
+header {
+    text-align: center;
+    padding: 50px;
+    background-color: #ffcc00;
+    color: #333;
+}
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+header p {
+    font-size: 1.2em;
+}
+
+/* Contenedor del formulario */
+.form-container {
+    max-width: 500px;
+    margin: 30px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+form label {
+    font-weight: bold;
+    margin-top: 15px;
+}
+form input,
+form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+form input[type="text"],
+form textarea {
+    width: 100%;
+}
+form button {
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #d32f2f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+form button:hover {
+    background-color: #b71c1c;
+}
+
+/* Sección de redes sociales */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+footer .social-links {
+    margin-top: 10px;
+}
+footer .social-links a {
+    color: #ffcc00;
+    text-decoration: none;
+    margin: 0 10px;
+}
+footer .social-links a:hover {
+    color: #e6b800;
+}
